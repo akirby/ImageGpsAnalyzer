@@ -1,0 +1,17 @@
+﻿<Window x:Class="ImageGpsAnalyzer.CaseNumberWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageGpsAnalyzer"
+        mc:Ignorable="d"
+        Title="CaseNumber" Height="125.026" Width="380.554" >
+    <Grid Margin="0,0,0,0">
+        <Grid.ColumnDefinitions>
+        </Grid.ColumnDefinitions>
+        <Label Content="Case Number:" HorizontalAlignment="Left" Margin="27,31,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCaseNum"  HorizontalAlignment="Left" Height="23" Margin="116,35,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="153"/>
+        <Button x:Name="saveNum" Content="Save" HorizontalAlignment="Left" Margin="288,37,0,0" VerticalAlignment="Top" Width="75" Click="saveNum_Click"/>
+
+    </Grid>
+</Window>

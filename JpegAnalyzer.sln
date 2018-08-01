@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JpegAnalyzer", "JpegAnalyzer\JpegAnalyzer.csproj", "{EBC66121-38FE-4D85-8845-DC2A0996B126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JpegAnalyzer.Tests", "JpegAnalyzer.Tests\JpegAnalyzer.Tests.csproj", "{CCD70C84-FAC4-4797-AC11-7A5FDBE88B41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBC66121-38FE-4D85-8845-DC2A0996B126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC66121-38FE-4D85-8845-DC2A0996B126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC66121-38FE-4D85-8845-DC2A0996B126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC66121-38FE-4D85-8845-DC2A0996B126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD70C84-FAC4-4797-AC11-7A5FDBE88B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD70C84-FAC4-4797-AC11-7A5FDBE88B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD70C84-FAC4-4797-AC11-7A5FDBE88B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD70C84-FAC4-4797-AC11-7A5FDBE88B41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEFD56C5-5ED7-43FB-B31E-3DA78825D4A1}
+	EndGlobalSection
+EndGlobal
